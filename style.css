@@ -5,15 +5,18 @@ body{
 }
 
 #header{
+
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  margin: 24px 0;
   height: 80px;
 }
 
 #header-img{
   width: 30%;
-
+  
 }
 #header a {
   margin-right: 24px;
@@ -22,11 +25,19 @@ body{
   font-size: 24px;
 }
 
+
+
+#body{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 #started{
   height: 20%;
   display: flex;
   justify-content: center;
-  margin: 24px 0;
+  margin: 110px 0;
 }
 
 #form{
@@ -58,11 +69,6 @@ input[type='email']{
   font-weight: bold;
 }
 
-#body{
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
-}
 
 #features{
   margin: 24px 0;
@@ -143,5 +149,7 @@ strong{
 }
 
  @media screen and (max-width: 768px) {
-
+  #header a{
+    font-size: 16px;
+  }
 } 
